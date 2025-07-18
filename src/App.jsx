@@ -104,7 +104,7 @@ function ProjectsPopup({ triggerNod }) {
     return (
       <div className="popup-overlay">
         {showVideo ? (
-          <video src="/project-loading.mp4" autoPlay muted playsInline style={{ width: '100vw', height: '100vh', objectFit: 'cover', borderRadius: 0 }} />
+          <video src="https://drive.google.com/uc?export=download&id=1HuMQP_maun9NCvIHO2ZDO7Fjr8p68jKE" autoPlay muted playsInline style={{ width: '100vw', height: '100vh', objectFit: 'cover', borderRadius: 0 }} />
         ) : null}
       </div>
     );
@@ -328,7 +328,7 @@ function ContactPopup({ triggerNod }) {
     return (
       <div className="popup-overlay">
         {showVideo ? (
-          <video src="/contact-loading.mp4" autoPlay muted playsInline style={{ width: '100vw', height: '100vh', objectFit: 'cover', borderRadius: 0 }} />
+          <video src="https://drive.google.com/uc?export=download&id=1e8b6eqo6uk1gLBlJmmNEmrVK6CoefekF" autoPlay muted playsInline style={{ width: '100vw', height: '100vh', objectFit: 'cover', borderRadius: 0 }} />
         ) : null}
       </div>
     );
@@ -336,7 +336,7 @@ function ContactPopup({ triggerNod }) {
   return (
     <div className="popup-overlay" onClick={() => navigate('/') }>
       <div className="page-content contact-content" onClick={e => e.stopPropagation()}>
-        <img src="/profile.jpg" alt="Pragatheeswaran S.K" className="profile-pic" style={{ margin: '0 auto 1.2rem auto', display: 'block' }} />
+        <img src="https://drive.google.com/uc?export=download&id=1CJBjc6WS6pGsteEzxyYWYUWeIYMu0RJ-" alt="Pragatheeswaran S.K watermark" className="profile-pic" style={{ margin: '0 auto 1.2rem auto', display: 'block' }} />
         <h1>Contact</h1>
         <p>Feel free to reach out to me via social media or email. I'm always open to new opportunities and collaborations!</p>
         <ul>
@@ -371,7 +371,7 @@ function AboutPopup({ triggerNod }) {
     return (
       <div className="popup-overlay">
         {showVideo ? (
-          <video src="/about-loading.mp4" autoPlay muted playsInline style={{ width: '100vw', height: '100vh', objectFit: 'cover', borderRadius: 0 }} />
+          <video src="https://drive.google.com/uc?export=download&id=1tQGEQyg9ooncjqf5Wh27ARBZ0LXWPKSD" autoPlay muted playsInline style={{ width: '100vw', height: '100vh', objectFit: 'cover', borderRadius: 0 }} />
         ) : null}
       </div>
     );
@@ -386,7 +386,7 @@ function AboutPopup({ triggerNod }) {
       <div className={`page-content about-content ${animateContent ? 'animate-in' : ''}`} onClick={e => e.stopPropagation()}>
         <div className={`profile-section ${animateContent ? 'slide-in' : ''}`}>
           <div className="profile-pic-container">
-            <img src="/profile1.jpg" alt="Pragatheeswaran S.K" className="profile-pic" />
+            <img src="https://drive.google.com/uc?export=download&id=1gxcEIgobqWosZRp89Im_sgv3PR93Cw_J" alt="Pragatheeswaran S.K" className="profile-pic" />
             <div className="profile-glow"></div>
           </div>
           <h1 className={`highlight-name ${animateContent ? 'name-reveal' : ''}`}>PRAGATHEES</h1>
@@ -656,7 +656,7 @@ function App() {
         alignItems: 'center',
         justifyContent: 'center',
       }}>
-        <video src="/loading.mp4" autoPlay muted playsInline style={{ width: '100vw', height: '100vh', objectFit: 'cover' }} />
+        <video src="https://drive.google.com/uc?export=download&id=1xY8Iv3SBoHJrQ2BDDda3_VVSpwE6S_WP" autoPlay muted playsInline style={{ width: '100vw', height: '100vh', objectFit: 'cover' }} />
       </div>
     );
   }
@@ -665,7 +665,7 @@ function App() {
     <>
       {/* Watermark profile image in top right corner */}
       <img 
-        src="/profile.jpg" 
+        src="https://drive.google.com/uc?export=download&id=1CJBjc6WS6pGsteEzxyYWYUWeIYMu0RJ-" 
         alt="Pragatheeswaran S.K watermark" 
         className="profile-watermark"
       />
